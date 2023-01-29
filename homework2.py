@@ -28,6 +28,7 @@ class Dogs:
         print(f'Привіт це {self.name} і я пішов :(')
 
 
+
 Sharik = Dogs(name='Sharik',size= 'medium',height = 67, age= 7, weight = 59,breed = 'rottweiler')
 print(Sharik)
 Boris = Dogs(name='Boris',size= 'medium',height = 50, age= 40, weight = 70,breed = 'staffordshire terrier')
