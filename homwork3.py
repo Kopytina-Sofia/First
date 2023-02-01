@@ -28,6 +28,7 @@ class Student:
         self.gladness -= 10
         self.money +=12
 
+
     def is_alive(self):
         if self.progress < 0:
             print("Ви відраховані від навчального закладу.")
