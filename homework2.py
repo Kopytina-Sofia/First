@@ -74,6 +74,7 @@ class Dogs:
         print(f"Розмір:           {self.breed.size}""\n")
 
 
+
 types_of_breed = {"Німецька вівчарка": {"weight": 40, "height": 65, "size": 'big'},
                   "Ротвейлер": {"weight": 49, "height": 73, "size": 'medium'},
                   "Чихуа-хуа": {"weight": 1, "height": 21, "size": 'small'},
