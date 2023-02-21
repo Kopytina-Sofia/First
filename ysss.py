@@ -58,7 +58,6 @@ class Dogs:
             return False
         if self.satiety < 0:
             print("Він помер від голоду.")
-            return False
 
     def info_day(self, day_number):
         day_str = f"День {day_number}-й з життя {self.name}-а"
@@ -94,7 +93,7 @@ class Breed:
             self.get_food()
 
 
-Sharik = Dogs(size='medium', height=67, age=7, weight=59, breed=Breed())
+Sharik = Dogs(size='medium', height=67, age=7, weight=59, breed='rottweiler')
 for day in range(1, 366):
     if Sharik.a_life(day) == False:
         break
